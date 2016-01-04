@@ -28,9 +28,9 @@
 
   <start to="mySSHAction"/>
 
-  <action name=" mySSHAction ">
-    <ssh>
-      <host>foo@bar.com<host>
+  <action name="mySSHAction">
+    <ssh xmlns="uri:oozie:ssh-action:0.2">
+      <host>foo@bar.com</host>
       <command>uploaddata</command>
       <args>jdbc:derby://bar.com:1527/myDB</args>
       <args>hdfs://foobar.com:8020/usr/joe/myData</args>

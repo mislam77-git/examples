@@ -34,7 +34,7 @@
       <name-node>hdfs://nn.mycompany.com:8020</name-node>
       <exec>/usr/bin/python</exec>
       <argument>test.py</argument>
-      <argument>07/21/2014/argument>
+      <argument>07/21/2014</argument>
       <env-var>TZ=PST</env-var>
       <file>test.py#test.py</file>
       <capture-output/>

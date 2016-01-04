@@ -30,8 +30,8 @@
 
   <action name="sqoop-import">
     <sqoop xmlns="uri:oozie:sqoop-action:0.2">
-      <job-tracker>jt.mycompany.com:8032$lt;/job-tracker>
-      <name-node>hdfs://nn.mycompany.com:8020$lt;/name-node>
+      <job-tracker>jt.mycompany.com:8032</job-tracker>
+      <name-node>hdfs://nn.mycompany.com:8020</name-node>
       <prepare>
         <delete path=" hdfs://nn.mycompany.com:8020/hdfs/joe/sqoop/output-data"/>
       </prepare>

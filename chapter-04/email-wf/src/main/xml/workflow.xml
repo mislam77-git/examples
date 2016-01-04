@@ -28,8 +28,8 @@
 
   <start to="myEmailAction"/>
 
-  <action name=" myEmailAction ">
-    <email>
+  <action name="myEmailAction">
+    <email xmlns="uri:oozie:email-action:0.2">
       <to>joe@initech.com,the_other_joe@initech.com</to>
       <cc>john@initech.com</cc>
       <subject>Email notifications for ${wf:id()}</subject>
