@@ -1,3 +1,5 @@
+This repository is still a work in progress.
+
 This repository contains code examples for the book "Apache Oozie" by Mohammad Kamrul Islam and Aravind Srinivasan (O'Reilly).
 
 # How to build the examples
