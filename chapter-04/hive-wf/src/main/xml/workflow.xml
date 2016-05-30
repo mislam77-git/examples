@@ -29,7 +29,7 @@
   <start to="myHiveAction"/>
 
   <action name="myHiveAction">
-    <hive xmlns="uri:oozie:hive-action:0.6">
+    <hive xmlns="uri:oozie:hive-action:0.5">
       <job-tracker>jt.mycompany.com:8032</job-tracker>
       <name-node>hdfs://nn.mycompany.com:8020</name-node>
       <job-xml>hive-config.xml</job-xml>
