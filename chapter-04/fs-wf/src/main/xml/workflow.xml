@@ -33,7 +33,7 @@
       <name-node>hdfs://nn.mycompany.com:8020</name-node>
       <delete path='/hdfs/user/joe/logs'/>
       <mkdir path='/hdfs/user/joe/logs'/>
-      <chmod path='/hdfs/user/joe/' permissions='755' dir-files='true'/>
+      <chmod path='/hdfs/user/joe/' permissions='755' dir-files='true'><recursive/></chmod>
     </fs>
     <ok to="success"/>
     <error to="fail"/>
